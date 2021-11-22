@@ -1,8 +1,6 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-//import { Text } from "react-native";
-import { StyleSheet, Text, View,Image,Button,TextInput,ScrollView,ImageBackground} from 'react-native';
 import { ModelS, Model3, ModelX, ModelY} from "./components/screens";
 
 
@@ -12,7 +10,6 @@ const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
-    
     <NavigationContainer>
       <Drawer.Navigator
         drawerPosition="right"
